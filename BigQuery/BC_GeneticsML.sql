@@ -1,0 +1,1 @@
+select a.*, b.Grb7, b.HER2, b.ER, b.PR, b.BCL2, b.SCUBE2, b.Ki67, b.STK15, b.Survivin, b.CyclinBI, b.MYBL2, b.MMPII, b.CTSL2, b.CD68, b.GSTMI, b.BAG1, b.Bactin, b.GAPDH, b.RPLPO, b.GUS, b.TFRC from `smu-msds-7346-summer2019-mld.raw_biopsy_data.BCDataset` a left outer join `smu-msds-7346-summer2019-mld.raw_biopsy_data.Genotype` b on a.id_number = b.id_number
